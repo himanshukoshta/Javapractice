@@ -1,4 +1,4 @@
-/*public class inheri {
+public class inheri {
     void eat()
     {
         System.out.println("eatt");
@@ -31,9 +31,9 @@ class hellooo{
         cat obii =new cat();
         obii.meo();
     }
-}*/
+}
 
-/*class parent{
+class parent{
     void sum(int a, int b)
     {
         System.out.println(a+b);
@@ -48,8 +48,8 @@ class hi{
         parent hu=new parent();
         hu.sum(2,3,5);
     }
-}*/
-/*class area{
+}
+class area{
     void sq(int a )                       //method overloading
     {
         System.out.println(a*a);
@@ -64,9 +64,9 @@ class hok{
         area hy=new area();
         hy.sq(2);
     }
-}*/
+}
 
-/*class parent{
+class parent{
     void eat()
     {
         System.out.println("maggiee");
@@ -84,7 +84,7 @@ class go{
         parent hj=new child();
         hj.eat();
     }
-}*/
+}
 class animal{
     void sound()
     {
