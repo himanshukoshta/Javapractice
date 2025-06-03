@@ -13,6 +13,11 @@ public class thread {
         System.out.println("bye bye");
     }
 }
+
+
+
+
+
 class threadd extends Thread{
     public  void run()
     {
