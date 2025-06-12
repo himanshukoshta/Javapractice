@@ -1,37 +1,50 @@
 public class string {
-   public static void main(String[] args) {
-        String str="hiiii";
-        String newstr="";
-        for(int i=0;i<str.length();i++)
-        {
-            char c=str.charAt(i);
-            if(newstr.indexOf(c)==-1)
-            {
-                newstr+=c;
-            }
-        }
-        System.out.println(newstr);
-   }
-}
-class string1{
     public static void main(String[] args) {
-     //   String str=new String("hello");
-      //  String str1=new String("hello");
-       // System.out.print(str1 == str);
-
-        String se="hhlooio";
-        char[] ch=se.toCharArray();
-        for(int i=0;i<ch.length;i++)
-        {
-            for(int j=i+1;j<ch.length;j++)
-            
-            {
-                if(ch[i]==ch[j])
-                {
-                    System.out.println(ch[j]);
-                    return;
-                }
+        String s="Himanshu Koshta";
+            System.out.println(s.length());
+        System.out.println(s.toUpperCase());
+        System.out.println(s.toLowerCase());
+        System.out.println(s.charAt(5));
+        System.out.println(s.indexOf("a"));
+        int count =0;
+        for (char i:s.toLowerCase().toCharArray()){
+            if("aeiou".indexOf(i)==-1){  //consonant
+                count++;
             }
         }
+        System.out.println("Consonant "+ count);
+        int count1 =0;
+        for (char g:s.toLowerCase().toCharArray()){
+            if("aeiou".indexOf(g)!=-1)
+            {
+                count1++;
+            }
+        }
+        System.out.println("Vowels "+count1);
+    }
+}
+
+class brummm{
+    public static void main(String[] args) {
+        String e="himnshu";
+        String rev="";
+        for (int i=e.length()-1;i>=0;i--)
+        {
+            rev+=e.charAt(i);
+        }
+        System.out.println(rev.equalsIgnoreCase(e));
+    }
+}
+
+class ratatata{
+    public static void main(String[] args) {
+        String r="Himanshu";
+        String rs="uhsnamih";
+        String y="";
+        for (int o = rs.length()-1; o>=0; o--)
+        {
+            y+=rs.charAt(o);
+        }
+        System.out.println(r.equalsIgnoreCase(y));
     }
 }
